@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<!DOCTYPE Adresar SYSTEM "magacin.dtd">
+<Magacin xmlns="http://www.w3schools.com"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.w3schools.com adresar.xsd">
+  <Artikal>
+    <Naziv sifra="001236">Mobilni telefon</Naziv>
+    <DatumIzrade>
+      <Dan>25</Dan>
+      <Mesec>2</Mesec>
+      <Godina>2019</Godina>
+    </DatumIzrade>
+    <Cena tip="euri">200</Cena>
+    <KompanijaProdavca>
+		<Ime>Beo Computers</Ime>
+		<Adresa>Balkanska 19/2</Adresa>
+		<Adresa>Pozeska 12/3</Adresa>
+	</KompanijaProdavca>
+    <Email tip="privatni">beocomputers@gmail.com</Email>
+  </Artikal>
+  <Artikal>
+    <Naziv sifra="125686">Laptop racunar</Naziv>
+    <DatumIzrade>
+      <Dan>18</Dan>
+      <Mesec>8</Mesec>
+      <Godina>2020</Godina>
+    </DatumIzrade>
+	<Cena tip="euri">500</Cena>
+	<KompanijaProdavca>
+		<Ime>Tehnomanija</Ime>
+		<Adresa>Ustanicka 110/7</Adresa>
+	</KompanijaProdavca>
+    <Email tip="privatni">tehnomanija@gmail.com</Email>
+	<Email tip="sluzbeni">tehnomanija1212@gmail.com</Email>
+  </Artikal>
+  <Artikal>
+    <Naziv sifra="002135">Slusalice</Naziv>
+    <DatumIzrade>
+      <Dan>3</Dan>
+      <Mesec>12</Mesec>
+      <Godina>2020</Godina>
+    </DatumIzrade>
+	<Cena>25000</Cena>
+    <KompanijaProdavca>
+		<Ime>5g centar</Ime>
+		<Adresa>Ruzveltova 2/12</Adresa>
+	</KompanijaProdavca>
+    <Email tip="sluzbeni">5gcentar14@hotmail.com</Email>
+  </Artikal>
+</Magacin>
